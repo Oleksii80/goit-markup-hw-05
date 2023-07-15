@@ -394,6 +394,7 @@ body {
 .footer-conteiner {
   display: flex;
   align-items: baseline;
+  max-width: 1440px;
 }
 .footer {
   background-color: var(--main-text-color);
@@ -460,9 +461,78 @@ body {
 .footer-socials-icon {
   fill: #f4f4fd;
 }
-
 .footer-socials-link:is(:hover, :focus) {
   background-color: #31d0aa;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 80px;
+}
+.subscribe-text {
+  display: flex;
+  justify-content: flex-start;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+.form {
+  display: flex;
+  gap: 24px;
+}
+.form-input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: #2e2f42;
+  color: #fff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+}
+
+.form-input::placeholder {
+  display: flex;
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.subscribe-socials-icon {
+  fill: #fff;
+}
+.subscribe-btn {
+  color: #fff;
+  text-align: center;
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  border-radius: 4px;
+  border-color: #4d5ae5;
+  background-color: #4d5ae5;
+}
+.subscribe-btn:hover,
+:focus {
+  border-color: #4d5ae5;
 }
 
 /*----------APPS----------*/
