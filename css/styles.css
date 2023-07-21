@@ -394,7 +394,6 @@ body {
 .footer-conteiner {
   display: flex;
   align-items: baseline;
-  max-width: 1440px;
 }
 .footer {
   background-color: var(--main-text-color);
